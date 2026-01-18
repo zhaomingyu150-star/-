@@ -18,7 +18,7 @@ let gameStarted = false;
 function preload() {
   faceMesh = ml5.faceMesh(options);
   // ... 图片资源加载保持不变 ...
-  assets.bg1     = loadImage("assets/background.png");
+  assets.bg1     = loadImage("assets/background.jpg");
   assets.toilet  = loadImage("assets/马桶.png");
   assets.cow     = loadImage("assets/牛牛.png");
   assets.gun     = loadImage("assets/马桶橛子.png");
